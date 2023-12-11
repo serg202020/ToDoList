@@ -1,0 +1,73 @@
+.noActive {
+  display: none;
+}
+
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+#app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.mainInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 2px;
+  border: 1px;
+  background-color: #1f4d7e;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.filter,
+.sort {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter input,
+.sort input {
+  margin-right: 10px;
+}
+
+.noActive {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+
+.todo-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.todo-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item h4 {
+  margin-bottom: 5px;
+}
+
+.todo-item p {
+  margin-bottom: 0;
+}
